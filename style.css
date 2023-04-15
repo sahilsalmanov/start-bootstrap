@@ -416,4 +416,14 @@ background-color: #1037B5;
 .section5 .main .right .center a {
     color:#1ABC9C;
 }
+footer {
+    height: 80px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A252F;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
 
