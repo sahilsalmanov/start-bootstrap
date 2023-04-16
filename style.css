@@ -12,8 +12,8 @@ nav {
     color: white;
     height: 80px;
     font-family: 'Montserrat', sans-serif;
-    position: fixed;
     width: 100%;
+    position: fixed;
 }
 .left-nav {
     display: flex;
@@ -862,5 +862,200 @@ footer {
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
+}
+@media screen and (min-width: 320px) and (max-width: 770px) {
+    nav ul {
+        display: none;
+     }
+     nav .menu {
+        display: flex;
+     }
+     nav .left-nav h2 {
+        font-size: 20px;
+     }
+     nav {
+     max-width: 770px;
+     }
+      .section1 {
+        min-width: 400px;
+        box-sizing: content-box;
+     }
+     .section1 .main {
+        width: 90%;
+        margin: 0 auto;
+     }
+     .section2 {
+        min-width: 400px;
+        box-sizing: content-box;
+        height: 1800px;
+     }
+     .section2 .header  {
+       width: 93% ;
+     }
+     .section2 .header p {
+        font-size: 40px;
+     }
+     .section2 .header .main-white {
+        width: 60%;
+     }
+     .section2 .photos .item {
+        width: 80%;
+     }
+     .section3 {
+        min-width: 400px;
+        height: 900px;
+        box-sizing: content-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .section3 .main {
+        height: 700px;
+        width: 80%;
+     }
+     .section3 .main .top {
+        width: 70%;
+     }
+     .section3 .main .middle {
+        margin: 0 auto;
+     }
+     .section3 .main .left {
+        width: 100%;
+        margin: 0 auto;
+     }
+     .section3 .main .right {
+        width: 100%;
+     }
+     .section3 .middle {
+        flex-direction: column;
+        width: 80%;
+        height: 500px;
+        justify-content: center;
+     }
+     .section3 .bottom .free-btn {
+        width: 200px;
+     }
+     .section4 {
+        min-width: 400px;
+        box-sizing: content-box;
+     }
+     .section4 .main {
+        width: 90%;
+     }
+     .section4 .main .top {
+        width: 79%;
+     }
+     .section4 .main .bottom button {
+        width: 140px;
+     }
+     .section5 {
+        min-width: 400px;
+        box-sizing: content-box;
+     }
+     .section5 {
+        height: 550px;
+        background-color:#2C3E50;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5 .main {
+        margin: 0 auto;
+        height: 500px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .section5 .main .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .section5 .main .left .center {
+        height: 150px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .section5 .main .left .center p {
+        font-size: 18px;
+    }
+    
+    .section5 .main .middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .section5 .main .middle .center {
+        font-size: 22px;
+        height: 150px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .section5 .main .middle .center .bottom {
+        display: flex;
+        justify-content: space-around;
+    }
+    .section5 .main .middle .center .bottom div {
+        height: 50px;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5 .main .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+    .section5 .main .right .center {
+        font-size: 22px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: space-around;
+        color: white;
+    }
+    .section5 .main .right .center h3 {
+        margin: 0 auto;
+        width: 120%;
+    }
+    .section5 .main .right .center p {
+        font-size: 18px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .section5 .main .right .center a {
+        color:#1ABC9C;
+    }
+     footer {
+        min-width: 400px;
+     }
+     
+   
+   
+     
 }
 
